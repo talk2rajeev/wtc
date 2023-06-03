@@ -174,7 +174,30 @@ img {
      padding: 12px 40px;
      font-size: 16px;
 }
+.player-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.player-grid > div {
+    border-bottom: 1px solid #efefef;
+    padding: 4px 0;
+    color: #515151;
+}
+.mb-15 {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #efefef;
+}
+.hashtag-link {
+    display: inline-block;
+    margin-left: 20px;
+    color: #0099ff;
+    font-size: 11px;
+}
 
+.table-head > div{
+    font-weight: 400;
+}
 .lead {
      font-size: 18px;
      line-height: 30px;
